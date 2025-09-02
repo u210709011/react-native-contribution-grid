@@ -1,0 +1,36 @@
+{
+  "name": "react-native-contribution-grid",
+  "version": "0.1.0",
+  "description": "Customizable GitHub-like contribution grid for React Native",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "react-native": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "contribution",
+    "calendar",
+    "heatmap",
+    "github"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.73"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.74",
+    "@types/react-native": "^0.72.8",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "expo-router": "^5.1.4"
+  }
+}

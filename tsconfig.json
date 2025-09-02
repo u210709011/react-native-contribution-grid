@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "outDir": "lib",
+      "module": "esnext",
+      "target": "esnext",
+      "jsx": "react-native",
+      "declaration": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true
+    },
+    "include": ["src"]
+  }
+  
